@@ -1,7 +1,7 @@
 var code2ary = require('./code2ary');
 
 function optiMAL(E) {
-    let miniMAL = require('./miniMAL');
+    let miniMAL = require('./miniMAL-node');
     let m = miniMAL(E);
     m.DEMO = (exp)=>m.EVAL(exp, true);
     m.EVAL = (exp, debug)=>{

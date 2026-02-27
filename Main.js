@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 var optiMAL = require('./optiMAL')
 
 //(1)単純な使い方
